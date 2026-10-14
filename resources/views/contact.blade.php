@@ -1,3 +1,5 @@
+<a href="{{ route('contact') }}">Contact</a>
+
 <x-layout title="Contact . Portfolio">
 
     <main class="mx-auto w-full max-w-5xl flex-1 px-6 py-12 sm:py-16">

@@ -1,3 +1,5 @@
+<a href="{{ route('about') }}">A propos</a>
+
 <x-layout title="À propos . Portfolio">
 
     <main class="mx-auto w-full max-w-5xl flex-1 px-6 py-12 sm:py-16">
@@ -7,7 +9,7 @@
         <div class="mt-10 grid gap-12 md:grid-cols-[3fr_2fr]">
             <div class="space-y-5 text-lg leading-relaxed text-stone-600">
                 <p>
-                    Étudiant·e en 2e année à l'ESGI, je me spécialise dans le développement web.
+                    Étudiant en 2e année à l'ESGI, je me spécialise dans le développement web.
                     Ce portfolio est construit avec <span class="font-semibold text-stone-900">Laravel</span>, séance après séance.
                 </p>
                 <p>
@@ -25,7 +27,7 @@
                 <ol class="mt-6 space-y-6 border-l-2 border-indigo-100 pl-6">
                     <li>
                         <p class="text-sm font-medium text-indigo-600">2025 · aujourd'hui</p>
-                        <p class="font-medium text-stone-900">Bachelor développement web, ESGI</p>
+                        <p class="font-medium text-stone-900">Bachelor Software Engineering, ESGI</p>
                     </li>
                     <li>
                         <p class="text-sm font-medium text-indigo-600">2025</p>
