@@ -25,14 +25,11 @@
             </a>
 
             <div class="flex gap-1">
-                <a href="/" class="rounded-full px-4 py-2 text-sm font-medium transition-colors text-stone-600 hover:bg-stone-100 hover:text-stone-900">Accueil</a>
-                <a href="/about" class="rounded-full px-4 py-2 text-sm font-medium transition-colors text-stone-600 hover:bg-stone-100 hover:text-stone-900">À propos</a>
-                <a href="/contact" class="rounded-full px-4 py-2 text-sm font-medium transition-colors bg-indigo-50 text-indigo-700">Contact</a>
-                <x-nav-link :href="route('home')" :active="request()->routeIs('home')"> Home</x-nav-link>
+                <x-nav-link class="shadow-lg" :href="route('home')" :active="request()->routeIs('home')"> Home</x-nav-link>
             
-                <x-nav-link :href="route('contact')" :active="request()->routeIs('contact')"> Contact</x-nav-link>
+                <x-nav-link class="shadow-lg" :href="route('contact')" :active="request()->routeIs('contact')"> Contact</x-nav-link>
 
-                <x-nav-link :href="route('about')" :active="request()->routeIs('about')"> About</x-nav-link>
+                <x-nav-link class="shadow-lg" :href="route('about')" :active="request()->routeIs('about')"> About</x-nav-link>
             </div>
         </nav>
     </header>
