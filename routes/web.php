@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home', [ 
-        'name' => 'Logan',
+        'name' => config('portfolio.owner'),
         'competences' => ['PHP', 'Laravel', 'JavaScript', 'Vue.js', 'Tailwind CSS', 'HTML', 'CSS'],
         'available' => true
     ]);
