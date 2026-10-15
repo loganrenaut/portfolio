@@ -12,7 +12,7 @@
                 @endif
 
                 <h1 class="text-4xl font-bold tracking-tight text-stone-900 sm:text-5xl">
-                    Bonjour, je suis <span class="text-indigo-600">{{ $name }}!</span>
+                    Hi, I'm <span class="text-indigo-600">{{ $name }}!</span>
                 </h1>
                 <p class="mt-6 max-w-2xl text-lg leading-relaxed text-stone-600">
                     Étudiant en développement web à l'ESGI. Je conçois des sites et des applications avec PHP et Laravel,
