@@ -1,4 +1,4 @@
-<a href="{{ route('about') }}">A propos</a>
+
 
 <x-layout title="À propos . Portfolio">
 
@@ -39,6 +39,51 @@
                     </li>
                 </ol>
             </div>
+            
+            <!-- AlpineExample -->
+            <section class="mt-16">
+                <h2 class="text-2xl font-bold tracking-tight text-stone-900">Questions fréquentes</h2>
+
+                <div class="mt-6 divide-y divide-stone-200 rounded-2xl bg-white shadow-sm ring-1 ring-stone-200">
+                    <div x-data="{
+                        open: false,
+                        init() {
+                            console.log('Bonjour variable open:', this.open);
+                        }
+                    }">
+                        <button
+                            type="button"
+                            class="flex w-full items-center justify-between px-6 py-4 text-left font-medium text-stone-900"
+                            x-on:click="open = !open"
+                        >
+                            Pourquoi Laravel ?
+                            <span class="text-indigo-600 transition-all">+</span>
+                        </button>
+                        <div class="px-6 pb-4 text-stone-600", x-show="open", x-cloak>
+                            Parce qu'il fournit tout le nécessaire : routes, vues, base de données, sécurité.
+                        </div>
+                    </div>
+                    <div>
+                        <button type="button" class="flex w-full items-center justify-between px-6 py-4 text-left font-medium text-stone-900">
+                            Quelles technologies utilisez-vous ?
+                            <span class="text-indigo-600">+</span>
+                        </button>
+                        <div class="px-6 pb-4 text-stone-600">
+                            Laravel pour le back-end, Tailwind CSS pour le style, Alpine.js pour l'interactivité.
+                        </div>
+                    </div>
+                    <div>
+                        <button type="button" class="flex w-full items-center justify-between px-6 py-4 text-left font-medium text-stone-900">
+                            Êtes-vous disponible pour un stage ?
+                            <span class="text-indigo-600">+</span>
+                        </button>
+                        <div class="px-6 pb-4 text-stone-600">
+                            Oui, contactez-moi via la page Contact.
+                        </div>
+                    </div>
+                </div>
+            </section>
+
         </div>
     </main>
 

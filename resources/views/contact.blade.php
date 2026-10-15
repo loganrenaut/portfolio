@@ -1,4 +1,4 @@
-<a href="{{ route('contact') }}">Contact</a>
+
 
 <x-layout title="Contact . Portfolio">
 
@@ -12,9 +12,9 @@
         <div class="mt-10 grid gap-8 md:grid-cols-[2fr_3fr]">
             <!-- Coordonnées -->
             <div class="space-y-4">
-                <a href="mailto:contact@exemple.com" class="block rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200 hover:ring-indigo-300">
+                <a href="mailto:renaut.logan@icloud.com" class="block rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200 hover:ring-indigo-300">
                     <p class="text-sm font-medium text-stone-500">E-mail</p>
-                    <p class="mt-1 font-semibold text-indigo-600">contact@exemple.com</p>
+                    <p class="mt-1 font-semibold text-indigo-600">renaut.logan@icloud.com</p>
                 </a>
                 <div class="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200">
                     <p class="text-sm font-medium text-stone-500">Localisation</p>
